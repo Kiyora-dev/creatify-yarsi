@@ -1,0 +1,400 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+@media (max-width: 575.98px) {
+
+  h4 {
+    font-size: 20px;
+  }
+  span,
+  p,
+  li,
+  a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  h4 {
+    font-size: 20px;
+  }
+  span,
+  p,
+  li,
+  a {
+    font-size: 14px;
+  }
+}
+.section-title-wrapper {
+    margin-bottom: 40px;
+}
+.section-title {
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+.section-sub {
+    color: #9fa3a7;
+    font-size: 18px;
+    line-height: 31px;
+}
+@media screen and (min-width: 992px){
+    .section-sub {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+.template-btn {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 12px 20px;
+  display: inline-block;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.template-btn:hover {
+  color: white;
+  background: #f28500;
+}
+.portfolio-section {
+  padding-top: 30px;
+  transition: 1.3s;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.portfolio-tab ul {
+  text-align: center;
+  margin-top: 50px;
+}
+.portfolio-tab ul li {
+  color: #000;
+  background: transparent;
+  display: inline;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  border: 2px solid #007f40;
+  margin: 0 5px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-tap-highlight-color: transparent;
+}
+@media (max-width: 575.98px) {
+  .portfolio-tab ul li {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+  }
+}
+.portfolio-tab ul li:hover {
+  background: #007f40;
+  color: #fff
+}
+.portfolio-tab ul .active {
+  background: linear-gradient(50deg,#14bd55 ,#028a46 80%)#007f40;
+  color: #fff
+}
+.clearfix:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+/* .portfolio-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+} */
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 768.1px) and (max-width: 991px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }		
+  }
+.portfolio-grid .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	display:block;
+	overflow:hidden;
+}
+.portfolio-wrapper {
+  overflow:hidden;
+  position: relative !important;
+  cursor:pointer;
+}
+.portfolio-bg {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s;
+  transform: scale(1)
+}
+.portfolio:hover .portfolio-bg{
+  transform: scale(1.2)
+}
+.first .portfolio-bg{
+  background-image: url('https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=accounts-applications-apps-267350.jpg&fm=jpg');
+  
+}
+.second .portfolio-bg{
+  background-image: url('https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?cs=srgb&dl=art-art-materials-artwork-1053687.jpg&fm=jpg');
+}
+.third .portfolio-bg{
+  background-image: url('https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?cs=srgb&dl=brainstorming-campaign-collaborate-6224.jpg&fm=jpg');
+  
+}
+.portfolio .label {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  bottom: 0;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden
+}
+
+.portfolio .label-bg {
+  background: #232323;
+  opacity: 0.7;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  transition: 1px;
+}
+.portfolio .label-text {
+  color:#fff;
+  position: relative;
+  z-index:500;
+  padding:50px 20px;
+}
+.portfolio:hover .label {
+  opacity: 1;
+  visibility: visible;
+}
+.portfolio .text-category {
+  display:block;
+}
+.portfolio .template-btn {
+  background: #007f40;
+  border: 1px solid #007f40;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: 500
+}
+
+/* Layla Effect */
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 5px 0.5%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 271px;
+  width: 32%;
+  background: #111a1d;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Layla *****/
+/*---------------*/
+
+figure.effect-layla {
+  /* background: #18a367; */
+  background: #007f40;
+}
+
+figure.effect-layla img {
+	height: 390px;
+}
+
+figure.effect-layla figcaption {
+	padding: 3em;
+}
+
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after {
+	position: absolute;
+	content: '';
+	opacity: 0;
+}
+
+figure.effect-layla figcaption::before {
+	top: 50px;
+	right: 30px;
+	bottom: 50px;
+	left: 30px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+figure.effect-layla figcaption::after {
+	top: 30px;
+	right: 50px;
+	bottom: 30px;
+	left: 50px;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+figure.effect-layla h2 {
+	padding-top: 26%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-layla p {
+	padding: 0.5em 2em;
+	text-transform: none;
+	opacity: 0;
+	-webkit-transform: translate3d(0,-10px,0);
+	transform: translate3d(0,-10px,0);
+}
+
+figure.effect-layla img,
+figure.effect-layla h2 {
+	-webkit-transform: translate3d(0,-30px,0);
+	transform: translate3d(0,-30px,0);
+}
+
+figure.effect-layla img,
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after,
+figure.effect-layla p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-layla:hover img {
+	opacity: 0.7;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-layla:hover figcaption::before,
+figure.effect-layla:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-layla:hover figcaption::after,
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p,
+figure.effect-layla:hover img {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}

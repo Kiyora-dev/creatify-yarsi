@@ -1,0 +1,127 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 18/10/2017 12:16
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-bathtub-2:before { content: "\f100"; }
+.flaticon-candles:before { content: "\f101"; }
+.flaticon-hot-stones:before { content: "\f102"; }
+.flaticon-essential-oil-7:before { content: "\f103"; }
+.flaticon-essential-oil-6:before { content: "\f104"; }
+.flaticon-bathtub-1:before { content: "\f105"; }
+.flaticon-bathtub:before { content: "\f106"; }
+.flaticon-relax:before { content: "\f107"; }
+.flaticon-essential-oil-5:before { content: "\f108"; }
+.flaticon-scent:before { content: "\f109"; }
+.flaticon-candle-1:before { content: "\f10a"; }
+.flaticon-essential-oil-4:before { content: "\f10b"; }
+.flaticon-lotus-2:before { content: "\f10c"; }
+.flaticon-towel:before { content: "\f10d"; }
+.flaticon-incense:before { content: "\f10e"; }
+.flaticon-stones-2:before { content: "\f10f"; }
+.flaticon-candle:before { content: "\f110"; }
+.flaticon-flower:before { content: "\f111"; }
+.flaticon-stones-1:before { content: "\f112"; }
+.flaticon-bed:before { content: "\f113"; }
+.flaticon-spa:before { content: "\f114"; }
+.flaticon-bamboo:before { content: "\f115"; }
+.flaticon-essential-oil-3:before { content: "\f116"; }
+.flaticon-lotus-1:before { content: "\f117"; }
+.flaticon-essential-oil-2:before { content: "\f118"; }
+.flaticon-stones:before { content: "\f119"; }
+.flaticon-soap:before { content: "\f11a"; }
+.flaticon-essential-oil-1:before { content: "\f11b"; }
+.flaticon-essential-oil:before { content: "\f11c"; }
+.flaticon-lotus:before { content: "\f11d"; }
+.flaticon-sports-8:before { content: "\f11e"; }
+.flaticon-sport:before { content: "\f11f"; }
+.flaticon-exercise-11:before { content: "\f120"; }
+.flaticon-sports-7:before { content: "\f121"; }
+.flaticon-exercise-10:before { content: "\f122"; }
+.flaticon-sports-6:before { content: "\f123"; }
+.flaticon-sports-5:before { content: "\f124"; }
+.flaticon-exercise-9:before { content: "\f125"; }
+.flaticon-exercise-8:before { content: "\f126"; }
+.flaticon-sports-4:before { content: "\f127"; }
+.flaticon-exercise-7:before { content: "\f128"; }
+.flaticon-exercise-6:before { content: "\f129"; }
+.flaticon-sports-3:before { content: "\f12a"; }
+.flaticon-sports-2:before { content: "\f12b"; }
+.flaticon-people-1:before { content: "\f12c"; }
+.flaticon-people:before { content: "\f12d"; }
+.flaticon-sports-1:before { content: "\f12e"; }
+.flaticon-exercise-5:before { content: "\f12f"; }
+.flaticon-exercise-4:before { content: "\f130"; }
+.flaticon-sports:before { content: "\f131"; }
+.flaticon-exercise-3:before { content: "\f132"; }
+.flaticon-exercise-2:before { content: "\f133"; }
+.flaticon-exercise-1:before { content: "\f134"; }
+.flaticon-exercise:before { content: "\f135"; }
+.flaticon-hip-twist-with-stretched-leg-position:before { content: "\f136"; }
+.flaticon-one-leg-stretching-position:before { content: "\f137"; }
+.flaticon-leg-pull-position:before { content: "\f138"; }
+.flaticon-one-leg-kick-laying:before { content: "\f139"; }
+.flaticon-change-legs-position:before { content: "\f13a"; }
+.flaticon-jackknife-position:before { content: "\f13b"; }
+.flaticon-pilates-posture:before { content: "\f13c"; }
+.flaticon-downward-dog-position:before { content: "\f13d"; }
+.flaticon-spine-twist:before { content: "\f13e"; }
+.flaticon-boomerang-position:before { content: "\f13f"; }
+.flaticon-one-leg-up-position:before { content: "\f140"; }
+.flaticon-exercises-with-body-arc:before { content: "\f141"; }
+.flaticon-shoulder-bridge-posture:before { content: "\f142"; }
+.flaticon-push-up-posture:before { content: "\f143"; }
+.flaticon-control-position:before { content: "\f144"; }
+.flaticon-exercises-with-reformer:before { content: "\f145"; }
+.flaticon-swan-dive-posture:before { content: "\f146"; }
+.flaticon-scirssors-posture:before { content: "\f147"; }
+.flaticon-open-leg-rocker-posture:before { content: "\f148"; }
+.flaticon-spine-stretch:before { content: "\f149"; }
+.flaticon-side-kick-posture-laying-on-the-floor:before { content: "\f14a"; }
+.flaticon-turn-around-leg-posture:before { content: "\f14b"; }
+.flaticon-side-bend-posture:before { content: "\f14c"; }
+.flaticon-exercises-with-mat:before { content: "\f14d"; }
+.flaticon-stretching-exercise:before { content: "\f14e"; }
+.flaticon-twisting-arms:before { content: "\f14f"; }
+.flaticon-bicycle-position:before { content: "\f150"; }
+.flaticon-rocking-on-the-floor:before { content: "\f151"; }
+.flaticon-exercises-with-chair:before { content: "\f152"; }
+.flaticon-exercises-with-bosu-ball:before { content: "\f153"; }
+.flaticon-excercises-lying-with-ball-at-feet:before { content: "\f154"; }
+.flaticon-leg-pull-front-position:before { content: "\f155"; }
+.flaticon-exercises-with-resistance-bands:before { content: "\f156"; }
+.flaticon-exercises-with-ring:before { content: "\f157"; }
+.flaticon-pilates-accesory:before { content: "\f158"; }
+.flaticon-roll-up-posture:before { content: "\f159"; }
+.flaticon-teaser-posture:before { content: "\f15a"; }
+.flaticon-side-kick-kneeling:before { content: "\f15b"; }
+.flaticon-pilates-reformer:before { content: "\f15c"; }
+.flaticon-concentration-position:before { content: "\f15d"; }
+.flaticon-side-bending-posture:before { content: "\f15e"; }
+.flaticon-precision-posture:before { content: "\f15f"; }
